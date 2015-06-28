@@ -1,12 +1,8 @@
-go-mailserver
-===============
-
-```go
 package main
 
 import (
         "fmt"
-        . "github.com/memememomo/go-smtpserver"
+        . "github.com/vonwenm/go-smtpserver"
         "log"
         "net"
         "regexp"
@@ -99,4 +95,3 @@ func main() {
                 conn.Close()
         }
 }
-```
